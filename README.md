@@ -1,7 +1,6 @@
 # Email-Deliverability-Checker
  A WordPress plugin to check email deliverability status, integrate with Site Health, send test emails, and more. Designed for future extensions like email logging.
 
-=== Email Deliverability Checker ===
 Contributors: Nithin K R
 Tags: email, deliverability, spf, dmarc, smtp, site health
 Requires at least: 5.0
