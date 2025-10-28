@@ -1,0 +1,130 @@
+/* Beautiful UI for admin pages */
+.edc-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.edc-dashboard-widgets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.edc-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1 1 300px;
+}
+
+.edc-status-good {
+    border-left: 5px solid #28a745; /* Green */
+}
+
+.edc-status-recommended {
+    border-left: 5px solid #ffc107; /* Yellow */
+}
+
+.edc-status-critical {
+    border-left: 5px solid #dc3545; /* Red */
+}
+
+.edc-highlight {
+    font-size: 1.2em;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.edc-form {
+    margin-top: 20px;
+}
+
+.edc-form input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.edc-form button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edc-form button:hover {
+    background: #0056b3;
+}
+
+#edc-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.edc-success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.edc-error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.edc-error pre code {
+    display: block;
+    background-color: #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin-bottom: 10px;
+    color: #721c24;
+    font-family: monospace;
+}
+
+.edc-error-details {
+    margin-top: 10px;
+    max-height: 200px; /* Limit height to prevent overflow */
+    overflow-y: auto; /* Add scroll if content exceeds max-height */
+    padding: 10px;
+    background-color: #f9ebeb; /* Lighter background for readability */
+    border-left: 4px solid #721c24;
+    border-radius: 4px;
+}
+
+.edc-error-details pre code {
+    background-color: transparent; /* Remove background for nested code */
+    padding: 0;
+    margin: 0;
+    color: #721c24;
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-break: break-word;
+    line-height: 1.5; /* Improve readability with line spacing */
+}
+
+.edc-status-text {
+    display: block; /* Ensure status text is on its own line */
+    margin-bottom: 5px; /* Space between status and link */
+}
+
+.edc-toggle-error {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.edc-toggle-error:hover {
+    text-decoration: underline;
+}
