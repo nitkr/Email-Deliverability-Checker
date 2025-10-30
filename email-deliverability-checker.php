@@ -3,7 +3,7 @@
 Plugin Name: Email Deliverability Checker
 Plugin URI: https://librevious.com
 Description: A WordPress plugin to check email deliverability status, integrate with Site Health, send test emails, and more.
-Version: 0.5
+Version: 1.0
 Author: Nithin K R
 Author URI: https://librevious.com
 License: GPL-2.0+
@@ -157,7 +157,7 @@ function edc_render_dashboard() {
             </div>
         </div>
         
-        <p><?php _e( 'More features like detailed email logs coming soon!', 'email-deliverability-checker' ); ?></p>
+        <p><?php _e( 'More features coming soon!', 'email-deliverability-checker' ); ?></p>
     </div>
     <?php
 }
